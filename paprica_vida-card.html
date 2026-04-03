@@ -1,0 +1,223 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="index, follow">
+        <meta name="description" content="Пицца Паприка Вида в Flour and Fire. Сладкий перец, пепперони, моцарелла и фирменный соус. Яркий вкус и аромат.">
+        <meta name="keywords" content="пицца с перцем, паприка вида, пицца пепперони, острая пицца, пицца с болгарским перцем">
+        <meta property="og:title" content="Пицца Паприка Вида — с перцем и пепперони">
+        <meta property="og:description" content="Яркая пицца с болгарским перцем, пепперони и фирменным соусом.">
+        <meta property="og:image" content="/images/paprica_vida.png">
+        <meta property="og:type" content="website">
+        <title>Пицца Паприка Вида — с перцем и пепперони | Flour and Fire</title>
+        <link rel="icon" href="images/logo.png" type="image/x-icon">
+        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center g-4"
+          href="index.html"
+        >
+          <img
+            src="images/logo.png"
+            alt="Логотип"
+            class="d-inline-block align-text-top logo"
+          />
+          Flour and Fire
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="menu.html">Меню</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photos.html">Фото</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Контакты</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Аккаунт
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="account.html"
+                    >Личный кабинет</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="login.html">Войти</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Корзина</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="container py-5">
+        <div class="row">
+            <div class="d-flex justify-content-center col-md-6">
+                <img src="images/paprica_vida.png" alt="Пицца Паприка Вида" class="w-75">
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-between align-items-center w-100 py-2">
+                    <h1 class="mt-2">Paprica Vida</h5>
+                    <h4 class="text-muted">1600 ₽</h4>
+                </div>
+                <p>Пицца Paprica Vida – это страстный испанский танец вкусов, где главную партию исполняет ароматная копчёная паприка! Традиционно эту пиццу готовят на томатном соусе с оливковым маслом, но в нашем исполнении она приобретает особый шарм благодаря сочетанию двух видов соусов – классического томатного и лёгкого чесночного айоли.</p>
+
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="d-flex mt-2">
+                        <button class="btn btn-outline-secondary quantity-btn minus-btn">-</button>
+                        <input type="text" class="form-control text-center mx-2 quantity-input" value="1" style="width: 50px;">
+                        <button class="btn btn-outline-secondary quantity-btn plus-btn">+</button>
+                    </div>
+                    <div class="d-flex gap-2 mt-2">
+                        <button class="btn btn-outline-dark quantity-btn" id="quantity-btn">30 см</button>
+                        <button class="btn btn-outline-dark quantity-btn active" id="quantity-btn">35 см</button>
+                        <button class="btn btn-outline-dark quantity-btn" id="quantity-btn">40 см</button>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark float-end mt-4">В корзину</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Flour and Fire</h5>
+            <p class="mb-3">
+              Готовим с любовью из свежих ингредиентов по традиционным
+              итальянским рецептам.
+            </p>
+            <div class="d-flex">
+              <div class="me-3">
+                <i class="fas fa-clock text-warning me-2"></i>
+                <span>Ежедневно 10:00-23:00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Меню</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="margarita-card.html"
+                  class="text-light text-decoration-none"
+                  >Маргарита</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="spinachi-card.html"
+                  class="text-light text-decoration-none"
+                  >Спиначи</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="chiken_pini-card.html"
+                  class="text-light text-decoration-none"
+                  >Чикен Пини</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="paprica_vida-card.html"
+                  class="text-light text-decoration-none"
+                  >Паприка Вида</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Информация</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="menu.html" class="text-light text-decoration-none"
+                  >Меню</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-light text-decoration-none"
+                  >Контакты</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="photos.html" class="text-light text-decoration-none"
+                  >Галерея</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Контакты</h5>
+            <div class="mb-3">
+              <i class="fas fa-map-marker-alt text-warning me-2"></i>
+              <span>бульвар Купца Ефремова, 3, Чебоксары</span>
+            </div>
+            <div class="mb-3">
+              <i class="fas fa-phone text-warning me-2"></i>
+              <a href="tel:+79991234567" class="text-light text-decoration-none"
+                >+7 (999) 123-45-67</a
+              >
+            </div>
+            <div class="mb-3">
+              <i class="fas fa-envelope text-warning me-2"></i>
+              <a
+                href="mailto:info@flourandfire.ru"
+                class="text-light text-decoration-none"
+                >info@flourandfire.ru</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4 pt-3 border-top border-secondary">
+          <div class="col-md-12 d-flex justify-content-center text-center text-md-start">
+            <p class="mb-0">&copy; 2026 Flour and Fire. Все права защищены.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script/choice.js"></script>
+    <script src="script/calculation.js"></script>
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>

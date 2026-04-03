@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Пиццерия Flour and Fire — настоящая итальянская пицца из дровяной печи. Свежайшие ингредиенты, тонкое тесто и атмосфера уюта. Доставка пиццы и самовывоз.">
+    <meta name="keywords" content="пиццерия, итальянская пицца, пицца из печи, дровяная печь, доставка пиццы, заказать пиццу, пицца на заказ">
+    <meta property="og:title" content="Пиццерия Flour and Fire — итальянская пицца из дровяной печи">
+    <meta property="og:description" content="Настоящая пицца из дровяной печи. Свежие ингредиенты, тонкое тесто, итальянские рецепты. Доставка и самовывоз.">
+    <meta property="og:image" content="/image/hero.webp">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Пиццерия Flour and Fire — настоящая итальянская пицца из дровяной печи. Свежайшие ингредиенты, тонкое тесто и атмосфера уюта. Доставка пиццы и самовывоз.">
+    <title>Пиццерия Flour and Fire — итальянская пицца из дровяной печи</title>
+    <link rel="icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body class="position-relative">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center g-4"
+          href="index.html"
+        >
+          <img
+            src="images/logo.png"
+            alt="Логотип"
+            class="d-inline-block align-text-top logo"
+          />
+          Flour and Fire
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Главная</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="menu.html">Меню</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="photos.html">Фото</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Контакты</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Аккаунт
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="account.html"
+                    >Личный кабинет</a
+                  >
+                </li>
+                <li><a class="dropdown-item" href="login.html">Войти</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="cart.html">Корзина</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="bg-warning py-1">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-md-4">
+            <strong><i class="fas fa-phone me-2"></i>+7 (999) 123-45-67</strong>
+          </div>
+          <div class="col-md-4">
+            <strong
+              ><i class="fas fa-map-marker-alt me-2"></i>бульвар Купца Ефремова,
+              3</strong
+            >
+          </div>
+          <div class="col-md-4">
+            <strong
+              ><i class="fas fa-clock me-2"></i>Ежедневно 10:00-23:00</strong
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-12 hero-background">
+      <header class="text-center py-5 h-100">
+        <h1 class="text-light">
+          Настоящая итальянская пицца с настоящими ингредиентами
+        </h1>
+        <p class="lead text-light">Лучшая итальянская пицца</p>
+      </header>
+
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-md-6" style="min-height: 38vh">
+            <!-- <img
+              src="images/pizza-cut.png"
+              class="col-md-9 img-fluid p-4"
+              alt="Cutting pizza"
+            /> -->
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-light">
+              Мы используем проверенные рецепты и свежие ингредиенты
+            </h2>
+            <p class="text-light">
+              В нашей пиццерии каждая пицца — это вкус традиций и качество в
+              каждой детали. Мы готовим по проверенным рецептам, которые
+              передаются из поколения в поколение, и используем только свежие
+              ингредиенты от местных фермеров.
+            </p>
+            <a href="menu.html" class="btn btn-light">Посмотреть меню</a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="container py-5">
+      <h2 class="mb-5">Наши популярные позиции</h2>
+      <div class="row g-4 mt-4">
+        <div class="col-md-6 col-lg-3">
+          <div
+            class="card pizza-card h-100"
+            onclick="location.href='margarita-card.html'"
+          >
+            <div class="position-relative">
+              <img
+                src="images/margherita.png"
+                class="card-img-top pizza-img"
+                alt="Пицца Маргарита"
+              />
+              <span class="position-absolute top-0 end-0 badge bg-warning m-2"
+                >Хит</span
+              >
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Маргарита</h5>
+              <p class="card-text text-muted flex-grow-1">
+                Классическая итальянская пицца с томатным соусом, моцареллой и
+                свежим базиликом
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mt-auto"
+              >
+                <span class="h5 text-dark mb-0">1000 ₽</span>
+                <button class="btn btn-dark btn-sm">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div
+            class="card pizza-card h-100"
+            onclick="location.href='spinachi-card.html'"
+          >
+            <div class="position-relative">
+              <img
+                src="images/spinachi.png"
+                class="card-img-top pizza-img"
+                alt="Пицца Спиначи"
+              />
+              <span class="position-absolute top-0 end-0 badge bg-success m-2"
+                >Вегетарианская</span
+              >
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Спиначи</h5>
+              <p class="card-text text-muted flex-grow-1">
+                Пицца со шпинатом, сыром рикотта, моцареллой и чесночным соусом
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mt-auto"
+              >
+                <span class="h5 text-dark mb-0">1200 ₽</span>
+                <button class="btn btn-dark btn-sm">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div
+            class="card pizza-card h-100"
+            onclick="location.href='chiken_pini-card.html'"
+          >
+            <div class="position-relative">
+              <img
+                src="images/chiken_pini.png"
+                class="card-img-top pizza-img"
+                alt="Пицца Чикен Пини"
+              />
+              <span class="position-absolute top-0 end-0 badge bg-info m-2"
+                >Новинка</span
+              >
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Чикен Пини</h5>
+              <p class="card-text text-muted flex-grow-1">
+                Пицца с курицей, пепперони, сладким перцем, луком и томатным
+                соусом
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mt-auto"
+              >
+                <span class="h5 text-dark mb-0">1400 ₽</span>
+                <button class="btn btn-dark btn-sm">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div
+            class="card pizza-card h-100"
+            onclick="location.href='paprica_vida-card.html'"
+          >
+            <div class="position-relative">
+              <img
+                src="images/paprica_vida.png"
+                class="card-img-top pizza-img"
+                alt="Пицца Паприка Вида"
+              />
+              <span class="position-absolute top-0 end-0 badge bg-danger m-2"
+                >Острое</span
+              >
+            </div>
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">Паприка Вида</h5>
+              <p class="card-text text-muted flex-grow-1">
+                Острая пицца с пепперони, халапеньо, перцем чили и специальным
+                острым соусом
+              </p>
+              <div
+                class="d-flex justify-content-between align-items-center mt-auto"
+              >
+                <span class="h5 text-dark mb-0">1600 ₽</span>
+                <button class="btn btn-dark btn-sm">Подробнее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light pt-5 pb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Flour and Fire</h5>
+            <p class="mb-3">
+              Готовим с любовью из свежих ингредиентов по традиционным
+              итальянским рецептам.
+            </p>
+            <div class="d-flex">
+              <div class="me-3">
+                <i class="fas fa-clock text-warning me-2"></i>
+                <span>Ежедневно 10:00-23:00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Меню</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a
+                  href="margarita-card.html"
+                  class="text-light text-decoration-none"
+                  >Маргарита</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="spinachi-card.html"
+                  class="text-light text-decoration-none"
+                  >Спиначи</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="chiken_pini-card.html"
+                  class="text-light text-decoration-none"
+                  >Чикен Пини</a
+                >
+              </li>
+              <li class="mb-2">
+                <a
+                  href="paprica_vida-card.html"
+                  class="text-light text-decoration-none"
+                  >Паприка Вида</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Информация</h5>
+            <ul class="list-unstyled">
+              <li class="mb-2">
+                <a href="menu.html" class="text-light text-decoration-none"
+                  >Меню</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="contact.html" class="text-light text-decoration-none"
+                  >Контакты</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="photos.html" class="text-light text-decoration-none"
+                  >Галерея</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <h5 class="text-warning mb-3">Контакты</h5>
+            <div class="mb-3">
+              <i class="fas fa-map-marker-alt text-warning me-2"></i>
+              <span>бульвар Купца Ефремова, 3, Чебоксары</span>
+            </div>
+            <div class="mb-3">
+              <i class="fas fa-phone text-warning me-2"></i>
+              <a href="tel:+79991234567" class="text-light text-decoration-none"
+                >+7 (999) 123-45-67</a
+              >
+            </div>
+            <div class="mb-3">
+              <i class="fas fa-envelope text-warning me-2"></i>
+              <a
+                href="mailto:info@flourandfire.ru"
+                class="text-light text-decoration-none"
+                >info@flourandfire.ru</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-4 pt-3 border-top border-secondary">
+          <div
+            class="col-md-12 d-flex justify-content-center text-center text-md-start"
+          >
+            <p class="mb-0">&copy; 2026 Flour and Fire. Все права защищены.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

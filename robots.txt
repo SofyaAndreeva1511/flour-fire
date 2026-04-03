@@ -1,0 +1,23 @@
+# robots.txt для сайта пиццерии Flour and Fire
+
+# Основные правила для всех поисковых роботов
+User-agent: *
+Disallow: /admin.html
+Disallow: /login.html
+Disallow: /register.html
+Disallow: /account.html
+Disallow: /cart.html
+Disallow: /*?*
+
+# Разрешаем индексацию всех основных страниц сайта
+Allow: /index.html
+Allow: /menu.html
+Allow: /photos.html
+Allow: /contact.html
+Allow: /margarita-card.html
+Allow: /chiken_pini-card.html
+Allow: /paprica_vida-card.html
+Allow: /spinachi-card.html
+
+# Указываем расположение Sitemap
+Sitemap: https://flourandfire.ru/sitemap.xml
